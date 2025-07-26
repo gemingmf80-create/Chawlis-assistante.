@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chawlis Assistant</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="login-page">
+    <form id="login-form">
+      <h2>Login</h2>
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <div id="chat-page" style="display: none;">
+    <div id="chat-container"></div>
+    <input type="text" id="user-input" placeholder="Type a message..." />
+    <button id="send-button">Send</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
